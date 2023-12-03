@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .underline {
+        position: relative;
+        display: inline-block;
+    }
+
+    .underline::before {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background-color: #f31515; /* Change this to the desired underline color */
+        transition: width 1.5s ease; /* Adjust the transition duration and timing function as needed */
+    }
+
+    .underline:hover::before {
+        width: 100%;
+    }
+</style>
+
+
+<div class="p-5 bg-body-tertiary rounded-3">
+    <p style="float:right;">
+        <img src="~/images/Mediamodifier-Design.svg" height="100" />
+    </p>
+    <h1 class="display-4 underline">Too Many Sample Doors? </h1>
+    <h1 class="display-5 underline">Too <span style="color:#f31">Little</span> Space?</h1>
+    <p class="lead">
+        We have the solution for you! Specifically designed for kitchen showroom cabinet door sample,
+        the <span class="underline"><b>EZDoorDisplay</b></span> System can be used to hang cabinet sample doors, color blocks, or hardware boards.
+    </p>
+    <p class="lead">
+        It can hold up to 30 doors in only a 45" wide space. Easy to install, flexible design, and perfect for
+        all showrooms!
+    </p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Visit our gallery <i class="bi bi-arrow-right"></i></a>
+    </p>
+</div>

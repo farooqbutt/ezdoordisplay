@@ -1,0 +1,52 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    ViewData["width"] = "250";
+    ViewData["height"] = "70";
+}
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <section class="h-100 p-3 bg-light border rounded-3">
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <center>
+                    <partial name="_EzDoorDisplayLogo" view-data="ViewData" />
+                    <h1 class="h3 mb-3 fw-normal">Create free account</h1>
+                    <hr />
+                </center>
+                <div asp-validation-summary="ModelOnly" class="text-danger form-text"></div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="" />
+                    <label asp-for="Input.Email"></label>
+                    <span asp-validation-for="Input.Email" class="text-danger form-text"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="" />
+                    <label asp-for="Input.Password"></label>
+                    <span asp-validation-for="Input.Password" class="text-danger form-text"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="" />
+                    <label asp-for="Input.ConfirmPassword"></label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger form-text"></span>
+                </div>
+                <div class="form-text mb-1">
+                    By clicking Register, you agree to the terms of use.
+                </div>
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary mb-2">Register</button>
+
+                <div>
+                    <a class="form-text" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have account login here</a>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
