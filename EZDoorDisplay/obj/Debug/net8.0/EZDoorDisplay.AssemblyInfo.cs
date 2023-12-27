@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EZDoorDisplay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550b1bced04a148e32c9a41ccebdd2bf3753fea0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EZDoorDisplay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EZDoorDisplay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

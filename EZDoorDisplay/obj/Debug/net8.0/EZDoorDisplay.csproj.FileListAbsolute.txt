@@ -281,3 +281,4 @@ D:\Online_Drives\Box\Box\Fiverr Pending Tasks\haowang103\EZDoorDisplay\EZDoorDis
 D:\Online_Drives\Box\Box\Fiverr Pending Tasks\haowang103\EZDoorDisplay\EZDoorDisplay\EZDoorDisplay\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Online_Drives\Box\Box\Fiverr Pending Tasks\haowang103\EZDoorDisplay\EZDoorDisplay\EZDoorDisplay\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Online_Drives\Box\Box\Fiverr Pending Tasks\haowang103\EZDoorDisplay\EZDoorDisplay\EZDoorDisplay\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Online_Drives\Box\Box\Fiverr Pending Tasks\haowang103\EZDoorDisplay\EZDoorDisplay\EZDoorDisplay\obj\Debug\net8.0\EZDoorDisplay.sourcelink.json

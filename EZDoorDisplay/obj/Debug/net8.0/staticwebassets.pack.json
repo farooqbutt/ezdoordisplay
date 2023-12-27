@@ -13,20 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\images\\Mediamodifier-Design.svg",
-      "PackagePath": "staticwebassets\\images\\Mediamodifier-Design.svg"
-    },
-    {
-      "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\images\\ezdoor-logo-svg.svg",
-      "PackagePath": "staticwebassets\\images\\ezdoor-logo-svg.svg"
-    },
-    {
-      "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\images\\ezdoor-logo-transparent.png",
-      "PackagePath": "staticwebassets\\images\\ezdoor-logo-transparent.png"
-    },
-    {
       "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\images\\ezdoor-logo.png",
       "PackagePath": "staticwebassets\\images\\ezdoor-logo.png"
+    },
+    {
+      "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\images\\ezdoor-logo.svg",
+      "PackagePath": "staticwebassets\\images\\ezdoor-logo.svg"
     },
     {
       "Id": "D:\\Online_Drives\\Box\\Box\\Fiverr Pending Tasks\\haowang103\\EZDoorDisplay\\EZDoorDisplay\\EZDoorDisplay\\wwwroot\\js\\site.js",
